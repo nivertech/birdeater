@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var User = require('birdeater').User,
+var User = require('../lib').User,
 		argv = require('optimist').argv;
 
 if (!argv.user) {

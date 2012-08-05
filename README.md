@@ -31,7 +31,7 @@ User.prototype.loadStatuses = function(callback) {
 };
 ```
 
-This returns an HTML representation of the tweets. JQuery is used to extract structured information from this.
+This returns an HTML representation of the tweets. JQuery is used to extract structured information from this:
 
 ```javascript
 jquery(tweets.items_html).find('.tweet').each(function() {
@@ -45,4 +45,4 @@ jquery(tweets.items_html).find('.tweet').each(function() {
 });
 ```
 
-I find that Node.js coupled with JQuery works great for building website crawlers.
+I find that Node.js, coupled with JQuery, works great for building website crawlers.
