@@ -66,6 +66,6 @@ I find that Node.js, coupled with JQuery, works great for building web crawlers:
 * JQuery is a champ at parsing HTML. I find it much more intuitive than other libraries that I've used, such as Beautiful Soup.
 * First and foremost, it's easy to do (take a look at **lib/user.js** Birdeater clocks in at about 100 lines of code).
 
-This approach has become my hammer, when web scraping tasks come up.
+This approach has become my hammer when web scraping tasks come up.
 
 -- Ben [@benjamincoe](https://twitter.com/#/benjamincoe)
