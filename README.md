@@ -24,10 +24,10 @@ npm install birdeater -g
 birdeater --user=shitmydadsays
 ```
 
-Be mindful when running it, as Twitter caps a single client at 150 requests per-hour.
+Be mindful when running it, as Twitter limits the number of requests that a single client can make per hour.
 
-Why It's Cool
-============
+How Birdeater Works
+==================
 
 Birdeater does not use Twitter's API. It was built as a demonstration of an approach I like to use for parsing structured information from unstructured HTML. Here's how it works:
 
