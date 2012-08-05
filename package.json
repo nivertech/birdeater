@@ -1,0 +1,30 @@
+{
+  "name": "birdeater",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "main": "./lib/index.js",
+  "bin": "./bin/birdeater.js",
+  "version": "0.0.1",
+  "author": "Ben Coe <bencoe@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "description": "Scrapes a user's public tweets and saves them in JSON format.",
+  "keywords": [
+    "crawler",
+    "twitter",
+    "public-timeline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bcoe/npm-tweets.git"
+  },
+  "dependencies": {
+    "request": ">=2.9.203",
+    "jquery": ">=1.7.3",
+    "sexy-args": ">=1.1.5",
+    "optimist": "0.3.4"
+  }
+}
