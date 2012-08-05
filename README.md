@@ -1,5 +1,5 @@
-Using Node.js and JQuery to Crawl a User's Public Tweets
---------------------------------------------------------
+Using Node.js and JQuery to Crawl Public Tweets
+------------------------------------------------
 
 A talk by [@benjamincoe](https://twitter.com/benjamincoe)
 
