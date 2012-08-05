@@ -63,5 +63,9 @@ jquery(body).find('.tweet').each(function() {
 I find that Node.js, coupled with JQuery, works great for building web crawlers:
 
 * Node.js offers a non-blocking evented paradigm. This works great for a web-crawler, which will tend to be I/O bound.
-* JQuery is awesome for parsing HTMT. I find it much more intuitive than other libraries I've used, such as Beautiful Soup.
-* First and foremost, it's easy (take a look at **lib/user.js** Birdeater clocks in at about 100 lines of code).
+* JQuery is awesome for parsing HTML. I find it much more intuitive than other libraries I've used, such as Beautiful Soup.
+* First and foremost, it's simple (take a look at **lib/user.js** Birdeater clocks in at about 100 lines of code).
+
+This approach has become my hammer, when web scraping tasks come up. I hope this was useful, please get in touch if you have any questions.
+
+-- Ben [@benjamincoe](https://twitter.com/#/benjamincoe)
