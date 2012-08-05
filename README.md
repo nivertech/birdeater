@@ -19,6 +19,8 @@ npm install birdeater -g
 birdeater --user=shitmydadsays
 ```
 
+Be mindful when running it, as Twitter caps a single client at 150 requests per-hour.
+
 Why It's Cool
 ============
 
