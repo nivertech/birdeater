@@ -24,7 +24,7 @@ Be mindful when running it, as Twitter caps a single client at 150 requests per-
 Why It's Cool
 ============
 
-Birdeater does not use Twitter's API. It demonstrates an approach I like to use for parsing structured information from unstructured HTML. Here's how it works:
+Birdeater does not use Twitter's API. It was built as a demonstration of an approach I like to use for parsing structured information from unstructured HTML. Here's how it works:
 
 An http connection is made to a user's public timeline using the [request](https://github.com/mikeal/request/) library:
 
