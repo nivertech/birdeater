@@ -6,6 +6,14 @@ Birdeater is a command-line tool for backing up a user's public Tweets in JSON f
 Usage
 =====
 
+Make sure you have (node package manager)[https://github.com/isaacs/npm/) installed:
+
+```bash
+curl http://npmjs.org/install.sh | sh
+```
+
+Then run these commands to install Birdeater:
+
 ```bash
 npm install birdeater -g
 birdeater --user=shitmydadsays
