@@ -60,7 +60,7 @@ jquery(body).find('.tweet').each(function() {
 });
 ```
 
-I find that Node.js, coupled with JQuery, works great for building website crawlers:
+I find that Node.js, coupled with JQuery, works great for building web crawlers:
 
 * Node.js offers a non-blocking evented paradigm. This works great for a web-crawler, which will tend to be I/O bound.
 * JQuery is awesome for parsing HTMT. I find it much more intuitive than other libraries I've used, such as Beautiful Soup.
