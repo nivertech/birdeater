@@ -1,5 +1,9 @@
 Birdeater
 ---------
+Using Node.js and JQuery to Crawl a User's Public Tweets
+========================================================
+
+A talk by [@benjamincoe](https://twitter.com/benjamincoe)
 
 Birdeater is a command-line tool for backing up a user's public Tweets in JSON format.
 
@@ -36,7 +40,7 @@ User.prototype.loadStatuses = function(callback) {
 	}, function(err, res, body) {
 		var error = err || res.statusCode != 200;
 		// handle error, or.
-		callback( JSON.parse(body) );
+		callback( body );
 	});
 };
 ```
@@ -44,7 +48,7 @@ User.prototype.loadStatuses = function(callback) {
 This returns an HTML representation of the tweets. JQuery is used to extract structured information from this:
 
 ```javascript
-jquery(tweets.items_html).find('.tweet').each(function() {
+jquery(body).find('.tweet').each(function() {
 	var tweet = jquery(this);
 	_this.tweets.push({
 		text: jquery.trim( tweet.find('.js-tweet-text').text() ),
@@ -55,4 +59,8 @@ jquery(tweets.items_html).find('.tweet').each(function() {
 });
 ```
 
-I find that Node.js, coupled with JQuery, works great for building website crawlers.
+I find that Node.js, coupled with JQuery, works great for building website crawlers:
+
+* Node.js offers a non-blocking evented paradigm. This works great for a web-crawler, which will tend to be I/O bound.
+* JQuery is awesome for parsing HTMT. I find it much more intuitive than other libraries I've used, such as Beautiful Soup.
+* First and foremost, it's easy (take a look at **lib/user.js** Birdeater clocks in at about 100 lines of code).
