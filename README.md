@@ -12,7 +12,7 @@ First, make sure you have [node package manager](https://github.com/isaacs/npm/)
 curl http://npmjs.org/install.sh | sh
 ```
 
-Then run these commands to install Birdeater:
+Then run the following commands to install Birdeater:
 
 ```bash
 npm install birdeater -g
