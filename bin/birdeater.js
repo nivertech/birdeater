@@ -11,7 +11,7 @@ if (!argv.user) {
 			console.log('too many errors occurred during crawl: ' + err);
 		},
 		onMoreTweetsLoaded: function() {
-			console.log(user.tweets.length + ' tweets loaded.');
+			console.log(user.tweets.length + ' tweets crawled.');
 		}
 	}, function() {
 		console.log('finished crawling ' + argv.user);

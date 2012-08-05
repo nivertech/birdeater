@@ -1,7 +1,7 @@
 Birdeater
 ---------
 
-Birdeater is a command-line tool that allows you to backup a Twitter user's public timeline in JSON format.
+Birdeater is a command-line tool for backing up a user's public Tweets in JSON format.
 
 Usage
 -----

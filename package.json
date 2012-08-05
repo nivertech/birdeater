@@ -11,7 +11,7 @@
   "engines": [
     "node"
   ],
-  "description": "Scrapes a user's public tweets and saves them in JSON format.",
+  "description": "A command-line tool for backing up a user's public Tweets in JSON format.",
   "keywords": [
     "crawler",
     "twitter",
