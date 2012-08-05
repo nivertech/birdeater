@@ -1,9 +1,10 @@
-Birdeater
----------
 Using Node.js and JQuery to Crawl a User's Public Tweets
-========================================================
+--------------------------------------------------------
 
 A talk by [@benjamincoe](https://twitter.com/benjamincoe)
+
+Birdeater
+---------
 
 Birdeater is a command-line tool for backing up a user's public Tweets in JSON format.
 
